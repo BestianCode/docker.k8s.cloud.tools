@@ -4,7 +4,7 @@ This Docker image is designed to support delivery pipelines for Kubernetes, whet
 
 ## Features
 
-- **Update Frequency**: Weekly.
+- **Update Frequency**: Monthly.
 - **Operating System**: Debian Bookworm (12) Slim.
 - **Timezone**: Europe/Berlin.
 
