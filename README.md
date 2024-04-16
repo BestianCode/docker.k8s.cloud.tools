@@ -26,5 +26,5 @@ You can use this image as a base image in your Dockerfiles or in your CI/CD pipe
 
 ## URLs
 
-- **GitHub**: https://github.com/BestianCode/docker_k8s.cloud.tools
+- **GitHub**: https://github.com/BestianCode/docker.k8s.cloud.tools
 - **DockerHub**: https://hub.docker.com/r/bestian/k8s.cloud.tools
