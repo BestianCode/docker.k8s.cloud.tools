@@ -8,7 +8,7 @@ RUN apt-get update \
        curl wget \
        jq \
        gpg \
-       unzip
+       unzip openssh-client
 
 # AWS CLI
 RUN if [ "$TARGETARCH" = "amd64" ]; then \
