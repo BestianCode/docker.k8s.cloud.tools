@@ -28,8 +28,8 @@ RUN curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | gpg --dearmor -
     && apt-get install -y --no-install-recommends google-cloud-cli google-cloud-cli-gke-gcloud-auth-plugin
 
 # Azure CLI
-RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash \
-    && az version
+RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash
+RUN az version
 
 # Kubectl
 RUN curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/${TARGETARCH}/kubectl" \
