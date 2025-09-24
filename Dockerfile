@@ -1,4 +1,4 @@
-FROM debian:bookworm-slim
+FROM debian:trixie-slim
 
 ARG TARGETARCH
 
@@ -8,7 +8,7 @@ RUN apt-get update \
        curl wget \
        jq \
        gpg \
-       unzip openssh-client
+       unzip openssh-client ca-certificates libssl3
 
 # AWS CLI
 RUN if [ "$TARGETARCH" = "amd64" ]; then \
