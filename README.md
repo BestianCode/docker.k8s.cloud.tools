@@ -19,6 +19,7 @@ The image comes with a set of pre-installed tools commonly used in Kubernetes pi
 - `helm`
 - `AWS CLI`
 - `GCP CLI + gke-gcloud-auth-plugin`
+- `Azure CLI`
 
 ## Usage
 
